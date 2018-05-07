@@ -1,4 +1,9 @@
-img {
-  max-width: 50%;
+.my-avatar {
+  max-width: 100%;
   height: auto;
+}
+
+.progress {
+  margin-top: 7px;  
+  height: 10px;
 }
