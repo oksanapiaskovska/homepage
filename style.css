@@ -7,3 +7,31 @@
   margin-top: 7px;  
   height: 10px;
 }
+
+.text-alignment {
+  text-align: left;
+}
+
+.dl-text-alignment {
+  text-align: center;
+}
+
+.colum-border {
+  border: none;
+}
+
+@media screen and (min-width: 768px){
+  .colum-border {
+    border-right: 1px solid #dee2e6!important;
+  }
+
+  .text-alignment {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .dl-text-alignment {
+    text-align: right;
+  }
+}
